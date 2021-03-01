@@ -30,7 +30,6 @@ function question1() {
     let answer1 = prompt(`True or False: Node allows developers to run JavaScript code outside of a browser.`);
     if (answer1.toLowerCase() === "true") {
         score += 1;
-        console.log("correct!");
     }
     totalPossibleScore += 1;
     console.log(answer1);
@@ -45,7 +44,6 @@ function question2() {
             d. single thread execution`);
     if (answer2.toLowerCase() === "a") {
         score += 1;
-        console.log("correct!");
     }
     totalPossibleScore += 1;
     console.log(answer2);
@@ -60,7 +58,6 @@ function question3() {
         d. single thread execution`);
     if (answer3.toLowerCase() === "b") {
         score += 1;
-        console.log("correct!");
     }
     totalPossibleScore += 1;
     console.log(answer3);
@@ -75,7 +72,6 @@ function question4() {
         d. closure`);
     if (answer4.toLowerCase() === "d") {
         score += 1;
-        console.log("correct!");
     }
     totalPossibleScore += 1;
     console.log(answer4);
@@ -88,7 +84,6 @@ function question5() {
         b. That there will be only one thread (process) available for the instructions to be executed.`);
     if (answer5.toLowerCase() === "b") {
         score += 1;
-        console.log("correct!");
     }
     totalPossibleScore += 1;
     console.log(answer5);
